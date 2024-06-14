@@ -39,7 +39,7 @@
         },   
     ]
 </script>
-<div class="grid grid-cols-2 md:grid-cols-3 md:gap-12 gap-4">
+<div class="grid grid-cols-2 lg:grid-cols-3 md:gap-12 gap-4">
     {#each data as { title, description, start, end, image }}
         <div class="border h-[500px] p-4 rounded flex flex-col  justify-between gap-y-2 cursor-pointer md:opacity-90 hover:opacity-100 hover:border-gray-300 hover:shadow-sm transition-all duration-300">
             <div class="flex flex-col gap-y-2">
