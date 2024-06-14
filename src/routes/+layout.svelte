@@ -5,9 +5,9 @@
 
 <div class="flex max-h-screen min-h-screen items-center justify-center">
 	<div
-		class="grid max-h-[calc(100vh-2rem)] min-h-[calc(100vh-2rem)] min-w-[calc(100vw-2rem)] max-w-[calc(100vw-2rem)] grid-cols-9 gap-x-12 overflow-clip rounded border p-6 font-mono"
+		class="md:grid flex flex-col max-h-[calc(100vh-2rem)] min-h-[calc(100vh-2rem)] min-w-[calc(100vw-2rem)] max-w-[calc(100vw-2rem)] grid-cols-9 gap-x-12 overflow-clip rounded border p-6 font-mono"
 	>
-		<div class="col-span-3">
+		<div class="col-span-3 lg:mb-0 mb-12">
 			<div class="flex flex-col gap-y-6">
 				<a href="/" class="font-mono text-xs hover:underline">aeronlaffere.com</a>
 				<div>
